@@ -1,0 +1,26 @@
+name: "Uptime Monitor (Node.js)"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '* * * * *'
+
+jobs:
+  check-websites:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run monitor.js
+        env:
+          UPTIME_WEBHOOK_URL: ${{ secrets.UPTIME_WEBHOOK_URL }}
+        run: node monitor.js

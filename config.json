@@ -1,0 +1,33 @@
+{
+  "webhook": "https://flow.zoho.in/60007684541/flow/webhook/incoming?zapikey=1001.03e604527ea1080251eec62514808247.6bac20c37c45fad9951413fd6781ca9e&isdebug=false",
+  "sites": [
+    {
+      "name": "Mumbaiker",
+      "url": "https://www.mumbaiker.com/",
+      "expectedStatus": [
+        200
+      ]
+    },
+    {
+      "name": "Drishti AI",
+      "url": "https://drishtiai.astrologeryogendra.in/",
+      "expectedStatus": [
+        200
+      ]
+    },
+    {
+      "name": "Unique News Org",
+      "url": "http://uniquenews.org/",
+      "expectedStatus": [
+        200
+      ]
+    },
+    {
+      "name": "Nonstop News",
+      "url": "http://uniqueffhgtnonsopt.org/",
+      "expectedStatus": [
+        200
+      ]
+    }
+  ]
+}
