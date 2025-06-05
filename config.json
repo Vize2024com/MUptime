@@ -16,15 +16,15 @@
       ]
     },
     {
-      "name": "Unique News Org",
-      "url": "http://uniquenews.org/",
+      "name": "Unique News Online",
+      "url": "https://www.uniquenewsonline.com/",
       "expectedStatus": [
         200
       ]
     },
     {
-      "name": "Nonstop News",
-      "url": "http://uniqueffhgtnonsopt.org/",
+      "name": "Astro Yogendraa",
+      "url": "https://astrologeryogendra.in/",
       "expectedStatus": [
         200
       ]
