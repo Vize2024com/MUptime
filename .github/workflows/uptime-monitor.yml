@@ -3,7 +3,7 @@ name: "Uptime Monitor (Node.js)"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   check-websites:
